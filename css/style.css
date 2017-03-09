@@ -1,0 +1,263 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(../images/whitewall.jpg);
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-attachment: absolute;
+  background-position: center;
+  repeat: no-repeat;
+  clear:both;
+  font-family: 'Lato', sans-serif;
+}
+
+header small {
+  font-size: 10px;
+}
+
+header {
+  background-color: #000;
+}
+
+h4 {
+  margin-top: 25px;
+  margin-left: 10px;
+  color: #fff;
+  font-weight: 300;
+}
+
+h4 small {
+  font-weight: 300;
+  color: #fff;
+}
+
+#main-scope {
+  /*background-color: #000;*/
+  border: 1px solid #fff;
+  height: 600px;
+  width: 90%;
+  margin-left: 5%;
+  border-radius: 0;
+  margin-top: 50%;
+  margin-top: 130px;
+  margin-bottom: 130px;
+}
+
+.navbar{
+  background-color: #0c1821;
+  height: 70px;
+  border-radius: 0px;
+}
+
+.mynav {
+  /*width: 130%;*/
+  text-align: center;
+  margin-right: 100px;
+}
+
+.homenav {
+  background-color: #1b2a41;
+  height: 83px;
+  margin-top: -30px;
+  opacity: .7;
+}
+
+.homenav:hover {
+  opacity: 1;
+  transition: 1s;
+}
+
+.aboutnav {
+  background-color: #324a5f;
+  height: 83px;
+  margin-top: -30px;
+  opacity: .7;
+}
+
+.aboutnav:hover {
+  opacity: 1;
+  transition: 1s;
+}
+
+
+.contactnav {
+  background-color: #ccc9dc;
+  height: 83px;
+  margin-top: -30px;
+  opacity: .7;
+}
+
+.contactnav:hover {
+  opacity: 1;
+  transition: 1s;
+}
+
+/*  SECTIONS  */
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+
+.col {
+	display: block;
+	float:left;
+  text-align: center;
+	/*margin: 1% 0 1% 0%;*/
+}
+
+.col a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 100;
+}
+
+.col ul {
+  text-align: center;
+}
+
+.col a:first-of-type {
+  /*margin-left: 55px;*/
+}
+
+.col li {
+  list-style: none;
+  margin-top: 15px;
+  padding-top: 40px;
+  /*padding-left: 25px;*/
+}
+
+.col h4 {
+  text-align: left;
+}
+
+
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+/*  GRID OF FOUR  */
+.span_4_of_4 {
+	width: 100%;
+}
+.span_3_of_4 {
+	width: 75%;
+}
+.span_2_of_4 {
+	width: 50%;
+}
+.span_1_of_4 {
+	width: 25%;
+}
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+	.col {  margin: 1% 0 1% 0%; }
+	.span_1_of_4, .span_2_of_4, .span_3_of_4, .span_4_of_4 { width: 100%; }
+}
+
+
+
+/* HOME VIEW CSS */
+
+.main1 h1 {
+  color: #fff;
+}
+/*
+.fullscreen-bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 80%;
+    height: 800px;
+    margin-left: 10%;
+    overflow: hidden;
+    z-index: -100;
+    margin-top: 50%;
+    margin-top: 130px;
+    border-radius: 10px;
+    max-width: inherit;
+}
+
+
+
+.fullscreen-bg__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.vid-contain {
+  overflow: hidden;
+}*/
+
+
+#videoDiv {
+  width: 100%;
+  height: 598px;
+  position: relative;
+  overflow: hidden;
+}
+
+#videoBlock,#videoMessage {
+  width: 100%;
+  height: 360px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#videoMessage *{
+  padding:0.4em;
+  margin:0
+}
+
+#videoMessage {
+  /*text-shadow: 2px 2px 2px #000000;*/
+  color:white;
+  z-index:99
+}
+
+#videoMessage h1{
+  font-size: 3em;
+  font-weight: 100;
+  color:#fff;
+  text-align:center;
+  margin-top: 230px;
+}
+
+#videoMessage h2{
+  font-size: 2.5em;
+  color:#ffffff;
+  text-align:center;
+}
+
+#videoMessage h3{
+  font-size: 2.0em;
+  color:#fff;
+  text-align:center;
+  font-weight: 100;
+}
+
+.videoClick {
+  text-align:center
+}
+
+.videoClick a{
+  color:white;
+  background-color:rgba(241, 241, 241, 0.25);
+  font-size: 1.7em;
+  cursor:pointer;
+  cursor:hand
+
+}

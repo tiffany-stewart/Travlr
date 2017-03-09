@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+  <title></title>
+    <!--FONT AWESOME-->
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700" rel="stylesheet">
+    <!-- <script src="https://use.fontawesome.com/2aa4f1c52f.js"></script> -->
+    <!--BOOTSTRAP CSS-->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <!--BOOTSTRAP JS/JQUERY-->
+    <script src="https://code.jquery.com/jquery-2.1.3.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <!--INTERNAL LINKS-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/hover.css">
+    <!--JQUERY-->
+    <script src="https://code.jquery.com/jquery-1.12.3.min.js" integrity="sha256-aaODHAgvwQW1bFOGXMeX+pC4PZIPsvn2h1sArYOhgXQ=" crossorigin="anonymous"></script>
+    <!--ANGULARJS-->
+    <script src="https://code.angularjs.org/1.2.9/angular.min.js"></script>
+    <script src="https://code.angularjs.org/1.2.9/angular-route.min.js"></script>
+
+</head>
+<body>
+
+<header>
+			<nav class="navbar navbar-default">
+			<div class="container">
+				<!-- <div class="navbar-header"> -->
+					<!-- <a class="navbar-brand top-title" href="/">TRAVLR<small> A PERSONAL BLOG</small></a> -->
+				</div>
+
+          <div class="col span_1_of_4">
+              <h4>TRAVLR <small>A PERSONAL BLOG</small></h4>
+            </div>
+            <div class="col span_1_of_4">
+              <div class="homenav">
+                <li><a href="#"></i>HOME</a></li>
+              </div>
+            </div>
+            <div class="col span_1_of_4">
+              <div class="aboutnav">
+                <li><a href="#/second"><i></i>ABOUT</a></li>
+              </div>
+            </div>
+            <div class="col span_1_of_4">
+              <div class="contactnav">
+                <li><a href="#/third"><i></i>CONTACT</a></li>
+              </div>
+            </div>
+          </div>
+
+				<ul class="nav navbar-nav navbar-right">
+
+
+				</ul>
+			</div>
+    </nav>
+		</header>
+
+
+    <div class="container">
+      <div id="main-scope">
+
+        <div ng-view></div>
+      </div>
+    </div>
+
+
+
+<script src="js/script.js"></script>
+</body>
+</html>
