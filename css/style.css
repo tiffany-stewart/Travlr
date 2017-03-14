@@ -40,14 +40,15 @@ h4 small {
   margin-left: 5%;
   border-radius: 0;
   margin-top: 50%;
-  margin-top: 130px;
-  margin-bottom: 130px;
+  margin-top: 20%;
+  margin-bottom: 20%;
 }
 
 .navbar{
   background-color: #0c1821;
-  height: 70px;
+  height: 68px;
   border-radius: 0px;
+  border: none;
 }
 
 .mynav {
@@ -358,18 +359,18 @@ h3 {
 #contactUs button {
   border: none;
   background-color: rgba(215, 221, 226, 0.7);
-  color: #842727;
+  color: #324a5f;
   height: 50px;
   width: 200px;
   border-radius: 5px;
   margin-bottom: 20px;
   margin-top: 10px;
   margin-bottom: 70px;
-  border: 1px solid #842727;
+  border: 1px solid #324a5f;
 }
 
 #contactUs button:hover {
-  background-color: #842727;
+  background-color: #324a5f;
   transition: 1s;
   color: #fff;
 }
